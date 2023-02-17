@@ -9,7 +9,13 @@ System.Console.Write("Введите второе число: ");
 int number2=Convert.ToInt32(Console.ReadLine());
 if(number1>number2)
 {
-    
-    System.Console.WriteLine("max= ");
-
+    System.Console.Write($"max число = {number1}, min число = {number2}");
+}
+else if(number1<number2)
+{
+    System.Console.Write($"max число = {number2}, min число = {number1}");
+}
+else
+{
+    System.Console.Write("Такой операции нет");
 }
